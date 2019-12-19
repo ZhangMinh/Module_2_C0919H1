@@ -4,7 +4,7 @@ import models.Customer;
 
 import java.util.List;
 
-public interface CustomerService {
+public interface CustomerService  {
     List<Customer> findAll();
 
     void save(Customer customer);
